@@ -5,6 +5,42 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+/* header styles */
+.navigation-bar{
+    width: 1440px;
+    height: 94px;
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+    margin-right: 100px;
+    padding: 28px;
+   
+}
+.nav-menu{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.navigation .left-menu img{
+    height: 51px;
+    width: 41px;
+}
+.navigation .right-menu img{
+    height: 51px;
+    width: 51px;
+}
+.left-menu span{
+    padding-right: 16px;
+}
+.right-menu span{
+    padding-left: 36px;
+}
+
 main{
     display: flex;
     flex-direction: column;
