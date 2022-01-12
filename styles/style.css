@@ -83,10 +83,7 @@ font-size: 24;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 25px;
 }
-.course{
-    height:252.5px ;
-    width: 270px;
-}
+
 .course .course-banner img{
     width: 224px;
 height: 104px;
@@ -109,4 +106,29 @@ height: 104px;
 .course-duration{
     background-color: #FFE4E8;
     color: #FF4A60;
+}
+/* media queries */
+/* Mobile devices */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .players,.blogs,.courses{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player,.blog{
+        flex-direction: column;
+    }
+
+}
+/* tablet devices */
+@media only screen and (min-width:688px)and (max-width:992px){
+    .container{
+        width: 100%;
+    }
+    .player{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
 }
